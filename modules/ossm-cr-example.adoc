@@ -25,7 +25,7 @@ The 3scale Istio Adapter is deployed and configured in the custom resource file.
   kind: ServiceMeshControlPlane
   metadata:
     name: basic-install
-
+  spec:
     threeScale:
       enabled: false
 
